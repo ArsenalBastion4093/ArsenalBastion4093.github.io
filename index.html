@@ -1,6 +1,48 @@
+<!doctype html>
 <html>
+	<head>
+		<base target="_blank" href="javascript:void(0)"/>
+		<style>
+			* {
+				margin:0;
+				border:0;
+				padding:0;
+				box-sizing:border-box;
+			}
+			#header {
+				text-align:center;
+				border-bottom: 1px grey;
+				box-shadow: black 0 0 5px;
+				padding: 20px 0 10px;
+			}
+			#avatar {
+				border-radius:5px;
+				width: 500px;
+			}
+			#columns {
+				width:820px;
+				margin:10px auto;
+			}
+			#left-column, #right-column {
+				margin:0 5px;
+			}
+		</style>
+	</head>
 	<body>
-		<h1>AB4093</h1>
-		<a href="https://mirror.ghproxy.com/https://raw.githubusercontent.com/ArsenalBastion4093/TurboWarp-tetriostats/main/tetriostats.js">TurboWarp TETR.IO Stats</a>
+		<header id="header">
+			<img id="avatar" src="https://avatars.githubusercontent.com/u/113167850?v=4" onerror="this.src='https://i1.hdslb.com/bfs/face/d3a3968360978cae13bd44a369a4e1cac685add7.jpg'"/>
+			<h1 id="username"><a>ArsenalBastion4093</a></h1>
+		</header>
+		<div id="columns">
+			<div id="left-column">
+				<div class="block">
+					<h2 class="block-header">My Projects</h2>
+					<ul>
+						<li>TurboWarp TETR.IO Stats (<a href="https://mirror.ghproxy.com/https://raw.githubusercontent.com/ArsenalBastion4093/TurboWarp-tetriostats/main/tetriostats.js" download>Download</a>)</li>
+					</ul>
+				</div>
+			</div>
+			<div id="right-column"></div>
+		</div>
 	</body>
 </html>
